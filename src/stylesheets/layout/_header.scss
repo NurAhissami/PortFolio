@@ -1,0 +1,93 @@
+.bm {
+  &-burger {
+    &-button {
+      position: fixed;
+      width: 26px;
+      height: 20px;
+      left: 36px;
+      top: 36px;
+      @include tablet() {
+        display: none;
+      }
+    }
+    &-bars {
+      background: $colorPink;
+      &-hover {
+        background: $colorMediumGreen;
+      }
+    }
+  }
+  &-cross {
+    background: $colorYellow;
+    &-button {
+      height: 24px;
+      width: 24px;
+    }
+  }
+  &-menu {
+    background: $colorPink;
+    background-image: url("../../images/giphypig.gif");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 350px;
+    padding: 40px 25px 0;
+    font-size: 1.5rem;
+
+    &-wrap {
+      position: fixed;
+      height: 100%;
+    }
+  }
+  &-item {
+    display: inline-block;
+  }
+}
+
+.hMenu {
+  display: none;
+  height: 100px;
+  @include tablet() {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @include desktop() {
+    height: 130px;
+  }
+  &__ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__item {
+    padding: 15px 27px 25px 0;
+    color: $colorDarkGreen;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+
+    @include desktop() {
+      padding: 35px 37px 35px 0;
+    }
+  }
+  &__img {
+    padding-left: 20px;
+    height: 85px;
+    @include desktop() {
+      height: 130px;
+    }
+  }
+}
+.hero {
+  height: 500px;
+  width: 100%;
+  background-image: url(../../images/hero-bg.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @include tablet {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+}
