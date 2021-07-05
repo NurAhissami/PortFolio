@@ -1,4 +1,11 @@
+import Hero from './Hero';
+import Proyectos from './Proyectos';
 function Main() {
-  return <></>;
+  return (
+    <>
+      <Hero />
+      <Proyectos />
+    </>
+  );
 }
 export default Main;

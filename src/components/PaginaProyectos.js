@@ -1,5 +1,5 @@
 import Proyecto from './Proyecto';
-function Proyectos() {
+function PaginaProyectos() {
   return (
     <section>
       <Proyecto />
@@ -8,4 +8,4 @@ function Proyectos() {
     </section>
   );
 }
-export default Proyectos;
+export default PaginaProyectos;
