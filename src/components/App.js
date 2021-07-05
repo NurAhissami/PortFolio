@@ -1,8 +1,13 @@
 //dependencies
-import { Route, Switch } from "react-router-dom";
+import {Route, Switch} from 'react-router-dom';
 //components
+import Header from './Header';
+import Main from './Main';
+import Proyectos from './Proyectos';
+import SobreMi from './SobreMi';
+import Footer from './Footer';
 //stylsheets
-import "../stylesheets/App.scss";
+import '../stylesheets/App.scss';
 
 function App() {
   return (
@@ -10,7 +15,6 @@ function App() {
       <Header />
 
       <Switch>
-        {/*HOME*/}
         <Route exact path="/">
           <Main />
         </Route>
@@ -24,10 +28,6 @@ function App() {
 
       <Footer />
     </>
-
-    /*<div className="App">
-      <div className="progress"></div>
-    </div>*/
   );
 }
 export default App;
