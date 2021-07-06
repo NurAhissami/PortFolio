@@ -1,6 +1,8 @@
+import React from 'react';
+
 function Proyecto() {
   return (
-    <>
+    <article>
       <div>
         <h3>Portfolio</h3>
         <p> HTML | SASS | REACT</p>
@@ -15,8 +17,7 @@ function Proyecto() {
         </ul>
         <img src="" alt="portfolio" />
       </div>
-      ;
-    </>
+    </article>
   );
 }
 export default Proyecto;

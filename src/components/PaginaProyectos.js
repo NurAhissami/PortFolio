@@ -1,4 +1,6 @@
 import Proyecto from './Proyecto';
+import React from 'react';
+
 function PaginaProyectos() {
   return (
     <section>
