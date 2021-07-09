@@ -1,0 +1,20 @@
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    &__rectangle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: $colorSecundary;
+    height: 200px;
+    border-radius: 10px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+}

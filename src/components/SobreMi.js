@@ -3,7 +3,7 @@ import React from 'react';
 function SobreMi() {
   return (
     <section>
-      <h2>Sobre mí</h2>
+      <h2 className="title">Sobre mí</h2>
       <img src="" alt="Nur" />
       <p>
         Soy una persona muy alegre, positiva y empática, habituada a trabajar en

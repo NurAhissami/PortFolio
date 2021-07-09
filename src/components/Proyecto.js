@@ -1,21 +1,21 @@
 import React from 'react';
 
-function Proyecto() {
+function Proyecto(props) {
   return (
-    <article>
-      <div>
-        <h3>Portfolio</h3>
-        <p> HTML | SASS | REACT</p>
-        <p>Descripción</p>
-        <ul>
+    <article className="proyectos">
+      <div className="proyectos__rectangle">
+        <h3 className="proyectos__name">{props.name}</h3>
+        <p className="proyectos__description">{props.description}</p>
+
+        <ul className="proyectos__list">
           <li>
-            <a href="">Página web</a>
+            <a href={props.web}>Página web</a>
           </li>
           <li>
-            <a href="">Repositorio</a>
+            <a href={props.web}>Repositorio</a>
           </li>
         </ul>
-        <img src="" alt="portfolio" />
+        <img src={props.img} alt={props.name} />
       </div>
     </article>
   );
