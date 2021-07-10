@@ -8,11 +8,11 @@ function Proyecto(props) {
         <p className="proyectos__description">{props.description}</p>
 
         <ul className="proyectos__list">
-          <li>
-            <a href={props.web}>Página web</a>
+          <li className="proyectos__list--link">
+            <a href={props.web}></a>
           </li>
-          <li>
-            <a href={props.web}>Repositorio</a>
+          <li className="proyectos__list--link">
+            <a className="proyectos__enlace" href={props.web}></a>
           </li>
         </ul>
         <img src={props.img} alt={props.name} />

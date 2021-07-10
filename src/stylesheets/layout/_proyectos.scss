@@ -17,4 +17,21 @@
     width: 250px;
     margin-bottom: 30px;
 }
+&__name{
+    font-size: 18px;
+}
+&__description{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+&__list{
+    display: flex;
+    &--link{
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        margin-right: 10px;
+    }
+}
 }
