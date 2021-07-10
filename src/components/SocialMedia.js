@@ -8,17 +8,17 @@ function SocialMedia() {
           <ul className="sm__list">
             <li>
               <a className="sm__link" href="" target="_blank">
-                <i className="fab fa-github-alt"></i>
+                <i className="sm__link--icon fab fa-github-alt"></i>
               </a>
             </li>
             <li>
               <a className="sm__link" href="" target="_blank">
-                <i className="fab fa-linkedin-in"></i>
+                <i className="sm__link--icon fab fa-linkedin-in"></i>
               </a>
             </li>
             <li>
               <a className="sm__link" href="" target="_blank">
-                <i className="fab fa-instagram-square"></i>{' '}
+                <i className="sm__link--icon fab fa-instagram-square"></i>{' '}
               </a>
             </li>
           </ul>

@@ -27,9 +27,15 @@
             padding-right: 5px;
         }
         &--name{
-            font-size: 50px;
+            font-size: 30px;
             color: $colorPrincipal;
-            line-height: 0.8;
+            line-height: 1;
+            background-color: $colorPrincipal;
+            color: white;
+            width: 100px;
+            height: 30px;
+        text-align: center;
+        
         }
 
     }
