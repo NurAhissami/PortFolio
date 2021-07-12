@@ -1,20 +1,34 @@
 .sm{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    position: absolute;
-    top: 4px;
-    left: 35%;
+    height: 27px;
     position: fixed;
     &__list{
         display: flex;
+        align-items: center;
     }
     &__link{
         padding: 10px;
-        font-size: 18px;
+        font-size: 16px;
         &--icon{
             color: white;
 
         }
 
+    }
+    @include tablet{
+        width: 100%;
+        height: 47px;
+        position: fixed;
+    
+        &__link{
+            padding: 30px;
+            font-size: 30px;
+    
+        }
     }
 }
 
@@ -22,7 +36,9 @@
 width: 100%;
 height: 27px;
 background-color: $colorPrincipal;
-position: absolute;
-    top: 0;
     position: fixed;
+    @include tablet{
+        
+height: 47px;
+    }
 }
