@@ -55,8 +55,9 @@ margin-bottom: 20px;
 }
 @include tablet{
     &__rectangle{
+
         height: 500px;
-        width: 700px;
+        width: 500px;
         margin-bottom: 50px;
     }
     &__name{
@@ -64,22 +65,25 @@ margin-bottom: 20px;
     }
     &__description{
         font-size: 21px;
+
     }
     &__list{
+
         &--link{
             width: 100px;
             height: 100px;
         }
     }
     &__image{
-        width:200px;
-        height:200px;
-       border-radius: 100%;
-order:-1;
-padding-top: 0;
-margin-bottom: 30px;
-
+  width:350px;
+  height:auto;
+  padding-top: 25px;
+  margin-bottom: 20px;
 }
-    
+&__button{
+font-size: 22px;
+width: 200px;
+height: 50px;
+}
 }
 }
