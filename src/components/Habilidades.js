@@ -1,199 +1,115 @@
 import React from 'react';
 
+//images
+import ai from '../images/ai.png';
+import autocad from '../images/autocad.png';
+import boots from '../images/boots.png';
+import code from '../images/code.png';
+import css from '../images/css.png';
+import git from '../images/git.png';
+import github from '../images/github.png';
+import gulp from '../images/gulp.png';
+import html from '../images/html.png';
+import id from '../images/id.png';
+import js from '../images/js.png';
+import node from '../images/node.png';
+import npm from '../images/npm.png';
+import ps from '../images/ps.png';
+import react from '../images/react.png';
+import sass from '../images/sass.png';
+import sketch from '../images/sketch.png';
+import slack from '../images/slack.png';
+import trello from '../images/trello.png';
+import xd from '../images/xd.png';
+import zeplin from '../images/zeplin.png';
+import nodejs from '../images/nodejs.png';
+
 function Habilidades() {
   return (
     <section>
       <h2 className="title">Habilidades</h2>
-      <article>
-        <h4>Programación</h4>
-        <ul>
-          <li>
-            <img
-              align="left"
-              alt="HTML5"
-              width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-            />
+      <article className="skills">
+        <h4 className="skills__title">Programación</h4>
+        <ul className="skills__container">
+          <li className="skills__list">
+            <img className="skills__image" alt="HTML5" src={html} />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="CSS3"
-              width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="CSS3" src={css} />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="JavaScript"
-              width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="JavaScript" src={js} />
           </li>
-          <li>
-            <img
-              align="left"
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-              alt="react"
-              width="30"
-              height="30"
-            />
+          <li className="skills__list">
+            <img className="skills__image" src={react} alt="react" />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="Gulp"
-              width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/gulp/gulp.png"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="Gulp" src={gulp} />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="Git"
-              width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="Git" src={git} />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="Node.js"
-              width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="Node.js" src={node} />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="Bootstrap"
-              width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="Bootstrap" src={boots} />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="Sass"
-              width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="Sass" src={sass} />
           </li>
-          <li>
-            <img
-              align="left"
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-              alt="nodejs"
-              width="40"
-              height="40"
-            />
+          <li className="skills__list">
+            <img className="skills__image" src={nodejs} alt="nodejs" />
           </li>
         </ul>
       </article>
       <article>
-        <h4>Diseño Gráfico</h4>
-        <ul>
-          <li>
-            <img
-              align="left"
-              alt="AutoCad"
-              width="50px"
-              src="https://1000marcas.net/wp-content/uploads/2020/01/AutoCAD-Logo.png"
-            />
+        <h4 className="skills__title">Diseño Gráfico</h4>
+        <ul className="skills__container">
+          <li className="skills__list">
+            <img className="skills__image" alt="AutoCad" src={autocad} />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="Indesign"
-              width="35px"
-              src="https://thinkvox.com.mx/wp-content/uploads/2020/08/Logo-adobe-indesign.png"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="Indesign" src={id} />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="Illustrator"
-              width="27px"
-              src="https://cdn.worldvectorlogo.com/logos/adobe-illustrator-cc-2019.svg"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="Illustrator" src={ai} />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="Photoshop"
-              width="65px"
-              src="https://www.solvetic.com/uploads/monthly_04_2016/tutorials-9832-0-29308300-1461599966.png"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="Photoshop" src={ps} />
           </li>
-          <li>
-            <img
-              align="left"
-              src="https://www.vectorlogo.zone/logos/sketchapp/sketchapp-icon.svg"
-              alt="sketch"
-              width="30"
-            />
+          <li className="skills__list">
+            <img className="skills__image" src={sketch} alt="sketch" />
           </li>
-          <li>
-            <img
-              align="left"
-              src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg"
-              alt="xd"
-              width="25"
-            />
+          <li className="skills__list">
+            <img className="skills__image" src={xd} alt="xd" />
           </li>
         </ul>
       </article>
       <article>
-        <h3>Herramientas</h3>
-        <ul>
-          <li>
-            <img
-              align="left"
-              alt="Github"
-              width="30px"
-              src="https://image.flaticon.com/icons/png/512/25/25231.png"
-            />
+        <h3 className="skills__title">Herramientas</h3>
+        <ul className="skills__container">
+          <li className="skills__list">
+            <img className="skills__image" alt="Github" src={github} />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="Npm"
-              width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="Npm" src={npm} />
           </li>
-          <li>
+          <li className="skills__list">
             <img
-              align="left"
+              className="skills__image"
               alt="Visual Studio Code"
-              width="30px"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png"
+              src={code}
             />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="Zeplin"
-              width="30px"
-              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/zeplin/zeplin.png"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="Zeplin" src={zeplin} />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="Trello"
-              width="35px"
-              src="https://img.icons8.com/color/452/trello.png"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="Trello" src={trello} />
           </li>
-          <li>
-            <img
-              align="left"
-              alt="Slack"
-              width="30px"
-              src="https://img.icons8.com/color/452/slack-new.png"
-            />
+          <li className="skills__list">
+            <img className="skills__image" alt="Slack" src={slack} />
           </li>
         </ul>
       </article>

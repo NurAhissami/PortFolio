@@ -1,0 +1,21 @@
+.skills{
+    &__title{
+        font-size: 16px;
+        padding-left: 37px;
+    }
+    &__container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 37px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    &__image{
+        width: 35px;
+        height: auto;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+}
