@@ -15,7 +15,7 @@ function Proyecto(props) {
             <a className="proyectos__enlace" href={props.web}></a>
           </li>
         </ul>
-        <img src={props.img} alt={props.name} />
+        <img className="proyectos__image" src={props.img} alt={props.name} />
       </div>
     </article>
   );

@@ -9,7 +9,7 @@ import PaginaProyectos from './PaginaProyectos';
 import SobreMi from './SobreMi';
 import Footer from './Footer';
 import SocialMedia from './SocialMedia';
-import Contacto from './Contacto';
+import PaginaContacto from './PaginaContacto';
 //stylsheets
 import '../stylesheets/App.scss';
 
@@ -30,7 +30,7 @@ function App() {
           <SobreMi />
         </Route>
         <Route path="/contacto">
-          <Contacto />
+          <PaginaContacto />
         </Route>
       </Switch>
       <Footer />

@@ -1,5 +1,6 @@
 import Proyecto from './Proyecto';
 import React from 'react';
+import rick from '../images/filters.png';
 
 function Proyectos() {
   return (
@@ -10,7 +11,7 @@ function Proyectos() {
         description="HTML | SASS | REACT"
         web=""
         repo=""
-        img=""
+        img={rick}
       />
       <Proyecto
         name="Portfolio"
@@ -19,7 +20,9 @@ function Proyectos() {
         repo=""
         img=""
       />
-      <button>Ver más</button>
+      <a className="proyectos__button" href="/proyectos">
+        Ver más
+      </a>
     </section>
   );
 }
