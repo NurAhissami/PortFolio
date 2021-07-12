@@ -67,5 +67,42 @@
             
         }
     }
+    @include tablet{
+        height: auto;
+        &__bg{
+            height: 350px;
+            width: 350px;
+           margin-top: 150px;
+        }
+        &__hello{
+            font-size: 40px;
+    
+        }
+        &__names{
+            &--me{
+                font-size: 32px;
+            }
+            &--name{
+                font-size: 60px;
+                width: 200px;
+                height: 60px;
+            
+            }
+    
+        }
+        &__text{
+           font-size: 25px;
+        }
+        &__button{
+            height: 70px;
+            width: 300px;
+            font-size: 22px;
+            margin-bottom: 100px;
+        }
+        &__circle{
+            display: none;
+        }
+    
+    }
 
  }

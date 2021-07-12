@@ -4,17 +4,14 @@
   background-position: top;
   height: 100vh;
   width: 100%;
-  display: flex;
   z-index: -1;
   position: absolute;
-  justify-content: center;
   padding-top: 40px;
 
   &__list{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-content: center;
     font-size: 14px;
     padding: 10px;
     &--li{
@@ -24,25 +21,13 @@
   }
  
   @include tablet{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    &__rectangle{
-      width: 300px;
-      background-color: #5DBACC
-      ;
-      height: 0.5px;
-      border-radius: 50%;
-   
+    &__list{
+      font-size: 25px;
+      &--li{
+        padding: 15px;
+      }
     }
-     &__list{
-       display: flex;
-       justify-content: center;
-       &--li{
-       padding: 15px;
-     }
-     }
+
    }
 
 }
