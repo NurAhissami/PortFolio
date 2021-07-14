@@ -29,4 +29,13 @@
         margin-bottom: 15px;
     }
 }
+@include desktop{
+    &__title{
+        font-size: 18px;
+    }
+    &__image{
+        width: 45px;
+        margin-right: 45px;
+    }
+}
 }

@@ -104,5 +104,47 @@
         }
     
     }
+    @include desktop{    
+        display: flex;
+        flex-direction: row;
+   
+        &__bg{
+            width: 50%;
+           order: 1;
+        }
+        &__container{
+            flex-direction: column;
+            margin-top: 250px;
+
+
+        }
+        &__hello{
+            font-size: 22px;
+    
+        }
+        &__names{
+            &--me{
+                font-size: 16px;
+            }
+            &--name{
+                font-size: 30px;
+                width: 110px;
+                height: 30px;
+            }
+    
+        }
+        &__text{
+           font-size: 18px;
+        }
+        &__button{
+            height: 35px;
+            width: 200px;
+            font-size: 16px;
+        }
+        &__circle{
+            display: none;
+        }
+    
+    }
 
  }
