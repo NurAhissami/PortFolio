@@ -120,23 +120,25 @@
            margin-left: 390px;
         }
         &__container{
+           
             flex-direction: column;
             margin-top: 250px;
+            align-items: flex-start;
 
 
         }
         &__hello{
-            font-size: 22px;
+            font-size: 32px;
     
         }
         &__names{
             &--me{
-                font-size: 16px;
+                font-size: 23px;
             }
             &--name{
-                font-size: 30px;
-                width: 110px;
-                height: 30px;
+                font-size: 40px;
+                width: 165px;
+                height: 45px;
             }
     
         }
