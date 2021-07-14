@@ -26,7 +26,7 @@ import nodejs from '../images/nodejs.png';
 
 function Habilidades() {
   return (
-    <section>
+    <section className="">
       <h2 className="title">Habilidades</h2>
       <article className="skills">
         <h4 className="skills__title">Programación</h4>
@@ -63,7 +63,7 @@ function Habilidades() {
           </li>
         </ul>
       </article>
-      <article>
+      <article className="skills">
         <h4 className="skills__title">Diseño Gráfico</h4>
         <ul className="skills__container">
           <li className="skills__list">
@@ -86,7 +86,7 @@ function Habilidades() {
           </li>
         </ul>
       </article>
-      <article>
+      <article className="skills">
         <h3 className="skills__title">Herramientas</h3>
         <ul className="skills__container">
           <li className="skills__list">

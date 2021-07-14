@@ -1,8 +1,6 @@
 .proyectos{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     align-content: center;
 
     &__rectangle{
@@ -86,4 +84,49 @@ width: 200px;
 height: 50px;
 }
 }
+@include desktop{
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__rectangle{
+        margin-top: 70px;
+        margin-left: 150px;
+        height: 310px;
+        width: 310px;
+    }
+    &__name{
+        font-size: 18px;
+    }
+    &__description{
+        font-size: 16px;
+
+    }
+    &__list{
+
+        &--link{
+            width: 40px;
+            height: 40px;
+        }
+    }
+    &__image{
+  width:200px;
+  height:auto;
+  padding-top: 25px;
+  margin-bottom: 20px;
+}
+&__button{
+font-size: 16px;
+height: 35px;
+width: 300px;
+}
+}
+}
+
+.section-proyects{
+    @include desktop{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
 }

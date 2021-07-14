@@ -3,12 +3,12 @@ padding-left: 36px;
 padding-right: 36px;
 display: flex;
 flex-direction: column;
-align-items: center;
 &__text{
     font-size: 14px;
 padding-bottom: 20px;
 }
 &__button{
+    align-self: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,10 @@ padding-bottom: 20px;
 }
 }
 @include desktop{
+
 &__text{
+    padding-left: 110px;
+    padding-right: 40px;
     font-size: 16px;
 padding-bottom: 20px;
 }
