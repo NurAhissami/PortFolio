@@ -15,6 +15,13 @@
         height: 200px;
         width: 200px;
       }
+      &__container{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-content: center;
+          align-items: center;
+      }
 
     &__hello{
         font-size: 20px;
