@@ -20,7 +20,16 @@ padding-bottom: 20px;
     font-weight: bold;
     background-color: $colorSecundary;
     margin-bottom: 30px;
-
-
+}
+@include tablet{
+&__text{
+    font-size: 18px;
+    text-align:initial;
+padding-bottom: 20px;
+}
+&__button{
+    height: 50px;
+    width: 350px;
+}
 }
 }
