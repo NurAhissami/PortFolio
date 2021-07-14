@@ -3,7 +3,9 @@ import React from 'react';
 function SobreMi() {
   return (
     <section>
-      <h2 className="title">Sobre mí</h2>
+      <h2 className="title" id="sobremi">
+        Sobre mí
+      </h2>
       <div className="about">
         {/* <img src="" alt="Nur" /> */}
         <p className="about__text">

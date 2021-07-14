@@ -15,7 +15,8 @@ function Hero() {
         <p className="hero__text">
           Soy desarrolladora FrontEnd y diseñadora Gráfica
         </p>
-        <button className="hero__button">¡Conóceme!</button>
+        <a 
+        href="#sobremi" className="hero__button">¡Conóceme!</a>
       </div>
       <div className="hero__circle">
         <i className="hero__circle--arrow fas fa-arrow-down"></i>
