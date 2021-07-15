@@ -15,9 +15,9 @@ import '../stylesheets/App.scss';
 
 function App() {
   return (
-    <div>
-      <Header />
+    <div className="body">
       <SocialMedia />
+      <Header />
 
       <Switch>
         <Route exact path="/">

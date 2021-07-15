@@ -4,25 +4,22 @@ import React from 'react';
 function Header() {
   return (
     <header className="header">
-      <div className="header__rectangle"></div>
-
       <nav>
         <ul className="header__list">
-          <li className="header__list--li">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="header__list--li">
-            <Link to="/sobremi">Sobre mi</Link>
-          </li>
-          <li className="header__list--li">
-            <Link to="/proyectos">Proyectos</Link>
-          </li>
-          <li className="header__list--li">
-            <Link to="/contacto/">Contacto</Link>
-          </li>
+          <Link to="/">
+            <li className="header__list--li">Home</li>
+          </Link>
+          <Link to="/sobremi">
+            <li className="header__list--li">Sobre mi</li>
+          </Link>
+          <Link to="/proyectos">
+            <li className="header__list--li">Proyectos</li>
+          </Link>
+          <Link to="/contacto">
+            <li className="header__list--li">Contacto</li>
+          </Link>
         </ul>
       </nav>
-      <div className="header__rectangle"></div>
     </header>
   );
 }

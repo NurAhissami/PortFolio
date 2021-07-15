@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 function SobreMi() {
   return (
@@ -22,9 +23,9 @@ function SobreMi() {
           mejores resultados.
         </p>
         <p className="about__text">Para saber más sobre mí, ¡contáctame!</p>
-        <a href="/contacto" className="about__button">
+        <Link to="/contacto" className="about__button">
           Contacto
-        </a>
+        </Link>
       </div>
     </section>
   );
