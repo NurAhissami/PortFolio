@@ -1,0 +1,50 @@
+[
+    {
+    "id": "1",
+    "name": "Rick y Morty",
+    "description": "Buscador en React alimentado vía API que brinda información sobre los personajes de la serie",
+    "git": "",
+    "appLink": "",
+    "imgURL": "",
+    "status": "active"
+    },
+    {
+    "id": "2",
+    "name": "Buscador de series",
+    "description": "Aplicación web en Javascript, alimentada vía API permite guardar series y agregarlas a favoritos",
+    "git": "",
+    "web": "",
+    "img": "",
+        "status": "active"
+
+    },
+    {
+    "id": "3",
+    "name": "Adivina el número",
+    "description": "Juego en Javascript en el que debes adivinar el número escogido por el ordenador. ¿Podrás ganar?",
+    "git": "",
+    "web": "",
+    "img": "",
+    "status": "active"
+
+    },
+    {
+    "id": "4",
+    "name": "",
+    "description": "",
+    "git": "",
+    "web": "",
+    "img": "",
+    "status": "active"
+    },
+    {
+    "id": "5",
+    "name": "",
+    "description": "",
+    "git": "",
+    "web": "",
+    "img": "",
+    "status": "active"
+
+    }
+    ]
