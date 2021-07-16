@@ -2,18 +2,20 @@
     {
     "id": "1",
     "name": "Rick y Morty",
-    "description": "Buscador en React alimentado vía API que brinda información sobre los personajes de la serie",
-    "git": "",
-    "appLink": "",
-    "imgURL": "",
+    "description": "Web responsive con un listado de personajes de Rick and Morty",
+    "tools": "HTML | SASS | REACT",
+    "git": "https://github.com/NurAhissami/rick-y-morty",
+    "web": "https://nurahissami.github.io/rick-y-morty/#/",
+    "img": "https://raw.githubusercontent.com/NurAhissami/rick-y-morty/master/src/images/filters.png",
     "status": "active"
     },
     {
     "id": "2",
-    "name": "Buscador de series",
-    "description": "Aplicación web en Javascript, alimentada vía API permite guardar series y agregarlas a favoritos",
-    "git": "",
-    "web": "",
+    "name": "Portfolio",
+    "description": "Portfolio, hecha con React",
+    "tools": "HTML | SASS | REACT",
+    "git": "https://github.com/NurAhissami/PortFolio",
+    "web": "https://nurahissami.github.io/PortFolio/#/",
     "img": "",
         "status": "active"
 
@@ -21,29 +23,66 @@
     {
     "id": "3",
     "name": "Adivina el número",
-    "description": "Juego en Javascript en el que debes adivinar el número escogido por el ordenador. ¿Podrás ganar?",
-    "git": "",
-    "web": "",
-    "img": "",
+    "description": "Juego en Javascript en el que debes adivinar el número escogido por el ordenador",
+    "tools": "HTML | SASS | JAVASCRIPT",
+    "git": "https://github.com/NurAhissami/guess-the-number",
+    "web": "https://nurahissami.github.io/guess-the-number/",
+    "img": "https://raw.githubusercontent.com/NurAhissami/guess-the-number/main/guess.png",
     "status": "active"
+    
 
     },
     {
     "id": "4",
-    "name": "",
-    "description": "",
-    "git": "",
-    "web": "",
-    "img": "",
+    "name": "Eleven code",
+    "description": "Web responsive, donde encontrarás información del equipo",
+    "tools": "HTML | SASS | NODE - GULP",
+    "git": "https://github.com/NurAhissami/eleven-code",
+    "web": "https://nurahissami.github.io/eleven-code/",
+    "img": "https://raw.githubusercontent.com/NurAhissami/eleven-code/master/webpage.png",
     "status": "active"
     },
     {
     "id": "5",
-    "name": "",
-    "description": "",
-    "git": "",
-    "web": "",
-    "img": "",
+    "name": "Ecode",
+    "description": "Página web creada para hacer tarjetas personalizadas digitales",
+    "tools": "HTML | SASS | NODE - GULP | JAVASCRIPT",
+    "git": "https://github.com/NurAhissami/ecode",
+    "web": "https://nurahissami.github.io/ecode/",
+    "img": "https://raw.githubusercontent.com/NurAhissami/ecode/master/landing.png",
+    "status": "active"
+
+    },
+    {
+    "id": "6",
+    "name": "Pokemon List",
+    "description": "Página web sencilla con React. La web consiste en un listado de pokemon, con opción de añadir a favoritos",
+    "tools": "HTML | SASS | REACT",
+    "git": "https://github.com/NurAhissami/poke-list",
+    "web": "https://nurahissami.github.io/poke-list/#/",
+    "img": "https://raw.githubusercontent.com/NurAhissami/poke-list/main/pokemon.png",
+    "status": "active"
+
+    },
+    {
+    "id": "7",
+    "name": "Buscador de Series",
+    "description": "Buscador de series por nombre, con opción de guardar tus series a favoritos",
+    "tools": "HTML | SASS | JAVASCRIPT",
+    "git": "https://github.com/NurAhissami/series-search-website",
+    "web": "https://nurahissami.github.io/series-search-website/",
+    "img": "https://raw.githubusercontent.com/Adalab/modulo-2-evaluacion-final-NurAhissami/master/web-design1.png",
+    "status": "active"
+
+    },
+    {
+    "id": "8",
+    "name": "Anonymous Proxy",
+    "description": "Página web simple, responsive",
+    "tools": "HTML | SASS ",
+    "git": "https://github.com/NurAhissami/anonymous-proxy",
+    "web": "https://nurahissami.github.io/anonymous-proxy/",
+    "img": "https://raw.githubusercontent.com/Adalab/modulo-1-evaluacion-final-NurAhissami/master/web-design.png",
     "status": "active"
 
     }
