@@ -5,7 +5,7 @@ import {Route, Switch} from 'react-router-dom';
 //components
 import Header from './Header';
 import Main from './Main';
-import PaginaProyectos from './PaginaProyectos';
+import Proyectos from './PaginaProyectos';
 import SobreMi from './SobreMi';
 import Footer from './Footer';
 import SocialMedia from './SocialMedia';
@@ -24,7 +24,7 @@ function App() {
           <Main />
         </Route>
         <Route path="/proyectos">
-          <PaginaProyectos />
+          <Proyectos />
         </Route>
         <Route path="/sobremi">
           <SobreMi />
