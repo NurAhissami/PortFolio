@@ -27,16 +27,22 @@
 &__list{
     display: flex;
     &--link{
-        width: 50px;
-        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
         background-color: white;
         margin-right: 10px;
+        border-radius: 5px;
+        
     }
 }
 &__image{
     width: 200px;
-    height: auto;
+    height: 150px;
     padding-top: 10px;
+    border-radius: 30px;
 }
 &__button{
     background-color: $colorPrincipal;
