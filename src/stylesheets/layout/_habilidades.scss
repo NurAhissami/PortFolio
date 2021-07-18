@@ -1,13 +1,11 @@
 .skills{
     &__title{
         font-size: 16px;
-        padding-left: 37px;
     }
     &__container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        padding-left: 37px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -20,7 +18,6 @@
 @include tablet{
     &__title{
         font-size: 20px;
-        padding-left: 37px;
     }
     &__image{
         width: 60px;
@@ -30,10 +27,15 @@
     }
 }
 @include desktop{
-    padding-left: 115px;
+    padding-left: 60px;        text-align: center;
+
 
     &__title{
-        font-size: 18px;
+        color: white;
+        font-size: 14px;
+        width: 200px;
+        background-color: $colorPrincipal;
+        text-transform: uppercase;
     }
     &__image{
         width: 50px;

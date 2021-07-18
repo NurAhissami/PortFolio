@@ -4,7 +4,7 @@
      flex-direction: column;
      align-items: center;
      align-content: center;
-     justify-content: center;
+     justify-content: space-around;
  
      &__bg{
         background-image: url(../../images/ilustracion-1.png);
@@ -81,7 +81,6 @@
         &__bg{
             height: 300px;
             width: 300px;
-           margin-top: 150px;
         }
         &__hello{
             font-size: 35px;
@@ -123,7 +122,6 @@
         &__container{
            
             flex-direction: column;
-            margin-top: 250px;
             align-items: flex-start;
 
 
