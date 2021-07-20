@@ -7,32 +7,40 @@ function PaginaContacto() {
     <>
       <HeroContact />
       <section className="contact">
-        <h2 className="contact">Contacto</h2>
-        <p>
+        <h2 className="contact__title">Contacto</h2>
+        <p className="contact__text">
           ¿Hablamos? 📞. Si crees que mi perfil profesional encaja con lo que
           buscas o quieres darme feedback sobre mis proyectos, ¡no dudes en
           contactarme! 📩
         </p>
-        <p>Puedes contactar conmigo al correo:</p>
-        <a href="mailto:nurahi10@gmail.com">nurahi10@gmail.com</a>
-        <p>A través de estos enlaces:</p>
-        <a href="https://github.com/NurAhissami" alt="GitHub Nur Ahissami">
+        <p className="contact__text">Puedes contactar conmigo al correo:</p>
+        <a className="contact__link" href="mailto:nurahi10@gmail.com">
+          nurahi10@gmail.com
+        </a>
+        <p className="contact__text">o a través de estos enlaces:</p>
+        <a
+          className="contact__link"
+          href="https://github.com/NurAhissami"
+          alt="GitHub Nur Ahissami"
+        >
           <i className="fab fa-github-alt"></i>
         </a>
         <a
+          className="contact__link"
           href="https://www.linkedin.com/in/nur-ahissami-1a7b24157/"
           alt="Linkedin Nur Ahissami"
         >
           <i className="fab fa-linkedin-in"></i>
         </a>
         <a
+          className="contact__link"
           href="https://www.instagram.com/nurahissami.design/"
           alt="Instagram Nur Ahissami"
         >
           <i className="fab fa-instagram-square"></i>
         </a>
         <p>O si lo prefieres, rellenando este formulario:</p>
-        <div className="container">
+        <div className="containerform">
           <form action="/action_page.php">
             <label htmlFor="fname">Nombre</label>
             <input
