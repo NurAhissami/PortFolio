@@ -18,10 +18,6 @@
         font-size: 18px;
     padding-bottom: 20px;
     }
-    &__button{
-        height: 50px;
-        width: 350px;
-    }
     }
     @include desktop{
     
@@ -30,9 +26,33 @@
         font-size: 16px;
     padding-bottom: 20px;
     }
-    &__button{
-        height: 35px;
-        width: 300px;
     }
     }
+
+    .containerform{
+        &__form{
+           display: flex;
+           flex-direction: column; 
+        }
+        &__label{
+font-size: 14px;  
+margin-bottom: 10px;    
+margin-top: 10px;    
+  }
+  &__input{
+      width: 250px;
+      height: 35px;
+      border: solid 1px $colorSecundary;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 12px;
+  }
+  &__submit{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: $colorSecundary;
+      height: 30px;
+      font-weight: bold;
+      border-radius: 5px;
+  }
     }

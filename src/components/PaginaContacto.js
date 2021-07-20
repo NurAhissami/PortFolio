@@ -39,41 +39,59 @@ function PaginaContacto() {
         >
           <i className="fab fa-instagram-square"></i>
         </a>
-        <p>O si lo prefieres, rellenando este formulario:</p>
+        <p className="contact__text">
+          O si lo prefieres, rellenando este formulario:
+        </p>
         <div className="containerform">
-          <form action="/action_page.php">
-            <label htmlFor="fname">Nombre</label>
+          <form className="containerform__form" action="/action_page.php">
+            <label className="containerform__label" htmlFor="fname">
+              Nombre
+            </label>
             <input
+              className="containerform__input"
               type="text"
               id="fname"
               name="firstname"
               placeholder="Tu nombre.."
             />
 
-            <label htmlFor="lname">Apellido</label>
+            <label className="containerform__label" htmlFor="lname">
+              Apellido
+            </label>
             <input
+              className="containerform__input"
               type="text"
               id="lname"
               name="lastname"
               placeholder="Apellido.."
             />
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email" className="containerform__label">
+              Email
+            </label>
             <input
+              className="containerform__input"
               type="mail"
               id="email"
               name="email"
               placeholder="tuemail@email.com"
             />
 
-            <label htmlFor="subject">Mensaje</label>
+            <label htmlFor="subject" className="containerform__label">
+              Mensaje
+            </label>
             <input
+              className="containerform__input"
               type="textarea"
               id="subject"
               name="subject"
               placeholder="Escribe tu texto.."
             />
 
-            <input type="submit" value="Enviar" />
+            <input
+              className="containerform__submit"
+              type="submit"
+              value="Enviar"
+            />
           </form>
         </div>
       </section>
