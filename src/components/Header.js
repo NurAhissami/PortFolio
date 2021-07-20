@@ -1,7 +1,10 @@
-import {Link} from 'react-router-dom';
-import React from 'react';
+import { Link } from "react-router-dom";
+import React from "react";
 
-function Header() {
+import { useTranslation } from "react-i18next";
+
+function Header(props) {
+  const { t, i18n } = useTranslation();
   return (
     <header className="header">
       <nav>
@@ -14,6 +17,9 @@ function Header() {
           </Link>
           <Link to="/proyectos">
             <li className="header__list--li">Proyectos</li>
+          </Link>
+          <Link to="/diseño">
+            <li className="header__list--li">Diseño</li>
           </Link>
           <Link to="/contacto">
             <li className="header__list--li">Contacto</li>

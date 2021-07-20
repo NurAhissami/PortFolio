@@ -1,25 +1,24 @@
 //dependencies
-import React from 'react';
+import React from "react";
 
-import {Route, Switch} from 'react-router-dom';
+import { Route, Switch } from "react-router-dom";
 //components
-import Header from './Header';
-import Main from './Main';
-import Proyectos from './PaginaProyectos';
-import SobreMi from './SobreMi';
-import Footer from './Footer';
-import SocialMedia from './SocialMedia';
-import PaginaContacto from './PaginaContacto';
-import Languages from './Languages';
+import Header from "./Header";
+import Main from "./Main";
+import Proyectos from "./PaginaProyectos";
+import SobreMi from "./SobreMi";
+import Footer from "./Footer";
+import SocialMedia from "./SocialMedia";
+import PaginaContacto from "./PaginaContacto";
+import Diseño from "./Diseño";
 //stylsheets
-import '../stylesheets/App.scss';
+import "../stylesheets/App.scss";
 
 function App() {
   return (
     <div className="body">
       <SocialMedia />
       <Header />
-      <Languages />
 
       <Switch>
         <Route exact path="/">
@@ -30,6 +29,9 @@ function App() {
         </Route>
         <Route path="/sobremi">
           <SobreMi />
+        </Route>
+        <Route path="/diseño">
+          <Diseño />
         </Route>
         <Route path="/contacto">
           <PaginaContacto />

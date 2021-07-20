@@ -1,0 +1,174 @@
+.herocontact{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+
+    &__bg{
+       background-image: url(../../images/bg-contact.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: top;
+       width: 100%;
+       height: 200px;
+       position: absolute;
+       top: 40px;
+       z-index: -12;
+     }
+     &__bg1{
+        position: absolute;
+        top: 40px;
+        z-index: -12;
+ 
+         height: 200px;
+         width: 100%;
+         background: rgb(255,255,255);
+background: linear-gradient(3deg, rgba(255,255,255,0.5526315789473684) 30%, rgba(255,255,255,1) 95%, rgba(255,255,255,1) 100%);
+
+     }
+
+     &__container{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-content: center;
+         align-items: center;
+         margin-bottom: 20px;
+     }
+
+   &__hello{
+       font-size: 20px;
+
+   }
+   &__names{
+       display: flex;
+       &--me{
+           font-size: 14px;
+           padding-right: 5px;
+       }
+       &--name{
+           font-size: 30px;
+           color: $colorPrincipal;
+           line-height: 1;
+           background-color: $colorPrincipal;
+           color: white;
+           width: 100px;
+           height: 30px;
+       text-align: center;
+       
+       }
+
+   }
+   &__text{
+       padding-top: 20px;
+       padding-bottom: 20px;
+       text-align: center;
+   }
+   &__button{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 30px;
+       width: 250px;
+           border-radius: 10px;
+       text-transform: uppercase;
+       font-weight: bold;
+       background-color: $colorSecundary;
+   }
+   &__circle{
+       width: 40px;
+       height: 60px;
+       border-radius: 50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: $colorPrincipal;
+       &--arrow{
+           font-size: 18px;
+           color: white;
+           
+       }
+   }
+   @include tablet{
+       height: auto;
+       &__bg{
+           height: 300px;
+           width: 300px;
+       }
+       &__hello{
+           font-size: 35px;
+   
+       }
+       &__names{
+           &--me{
+               font-size: 27px;
+           }
+           &--name{
+               font-size: 55px;
+               width: 180px;
+               height: 55px;
+           
+           }
+   
+       }
+       &__text{
+          font-size: 22px;
+       }
+       &__button{
+           height: 50px;
+           width: 250px;
+           font-size: 18px;
+           margin-bottom: 100px;
+       }
+       &__circle{
+           display: none;
+       }
+   
+   }
+   @include desktop{    
+       flex-direction: row;
+  
+       &__bg{
+          order: 1;
+          margin-left: 390px;
+       }
+       &__container{
+          
+           flex-direction: column;
+           align-items: flex-start;
+
+
+       }
+       &__hello{
+           font-size: 32px;
+   
+       }
+       &__names{
+           &--me{
+               font-size: 23px;
+           }
+           &--name{
+               font-size: 40px;
+               width: 165px;
+               height: 45px;
+           }
+   
+       }
+       &__text{
+          font-size: 18px;
+       }
+       &__button{
+           height: 35px;
+           width: 300px;
+                   font-size: 16px;
+       }
+       &__circle{
+           display: none;
+       }
+   
+   }
+
+}

@@ -1,7 +1,9 @@
 {
-    "home": {
-      "title": "Hola"
-    },
-    "hello": "Hola {name}!",
-    "fallback": "yeees message"
+
+     "home":"Home",
+     "about":"Sobre mi",
+     "projects":"Proyectos",
+     "design":"Diseño",
+     "contact":"Contacto"
+
   }
