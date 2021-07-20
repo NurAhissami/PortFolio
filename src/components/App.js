@@ -10,6 +10,7 @@ import SobreMi from './SobreMi';
 import Footer from './Footer';
 import SocialMedia from './SocialMedia';
 import PaginaContacto from './PaginaContacto';
+import Languages from './Languages';
 //stylsheets
 import '../stylesheets/App.scss';
 
@@ -18,6 +19,7 @@ function App() {
     <div className="body">
       <SocialMedia />
       <Header />
+      <Languages />
 
       <Switch>
         <Route exact path="/">
