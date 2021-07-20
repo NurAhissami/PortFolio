@@ -9,7 +9,7 @@ function Diseño() {
       <HeroDesign />
       <section className="section-proyects">
         <h2 className="title">Diseño</h2>
-        <ul className="projects-list">holi</ul>
+        <ul className="design">Work in progress</ul>
       </section>
     </>
   );

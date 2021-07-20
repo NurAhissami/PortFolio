@@ -2,6 +2,7 @@ import Proyecto from "./Proyecto";
 import React from "react";
 
 import data from "../data/projects.json";
+import HeroProjects from "./HeroProjects";
 
 function Proyectos() {
   const projects = data.map((project) => {
@@ -18,13 +19,14 @@ function Proyectos() {
     );
   });
   return (
-    <section className="section-proyects">
-      <h2 className="title">Proyectos</h2>
-      <ul className="projects-list">{projects}</ul>
-      <a className="proyectos__button" href="/proyectos">
-        Ver más
-      </a>
-    </section>
+    <>
+      <HeroProjects />
+
+      <section className="section-proyects">
+        <h2 className="title">Proyectos</h2>
+        <ul className="projects-list">{projects}</ul>
+      </section>
+    </>
   );
 }
 export default Proyectos;

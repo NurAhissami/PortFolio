@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Proyecto(props) {
   return (
@@ -9,12 +9,12 @@ function Proyecto(props) {
 
         <ul className="proyectos__list">
           <li className="proyectos__list--link">
-            <a href={props.git} target="_blank">
+            <a href={props.repo} target="_blank">
               <i class="proyectos__enlace--icon fas fa-code"></i>
             </a>
           </li>
           <li className="proyectos__list--link">
-            <a className="proyectos__enlace" href={props.web}>
+            <a className="proyectos__enlace" href={props.web} target="_blank">
               <i class="proyectos__enlace--icon fas fa-laptop"></i>
             </a>
           </li>

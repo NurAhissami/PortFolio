@@ -1,7 +1,9 @@
-import Proyecto from './Proyecto';
-import React from 'react';
+import Proyecto from "./Proyecto";
+import React from "react";
 
-import data from '../data/projects.json';
+import { Link } from "react-router-dom";
+
+import data from "../data/projects.json";
 
 function Proyectos() {
   const projects = data.map((project) => {
@@ -21,9 +23,9 @@ function Proyectos() {
     <section className="section-proyects">
       <h2 className="title">Proyectos</h2>
       <ul className="projects-list">{projects}</ul>
-      <a className="proyectos__button" href="/proyectos">
+      <Link to="/proyectos" className="proyectos__button">
         Ver más
-      </a>
+      </Link>
     </section>
   );
 }

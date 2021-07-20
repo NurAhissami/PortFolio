@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: $colorSecundary;
+    background-color:  $colorSecundary;
     height: 300px;
     border-radius: 10px;
     width: 250px;
@@ -20,6 +20,8 @@
     font-size: 18px;
 }
 &__description{
+    text-align: center 
+    ;
     font-size: 12px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -42,7 +44,6 @@
     width: 200px;
     height: 150px;
     padding-top: 10px;
-    border-radius: 30px;
 }
 &__button{
     background-color: $colorPrincipal;
