@@ -43,7 +43,11 @@ function PaginaContacto() {
           O si lo prefieres, rellenando este formulario:
         </p>
         <div className="containerform">
-          <form className="containerform__form" action="/action_page.php">
+          <form
+            className="containerform__form"
+            action="https://getform.io/f/50572065-131e-42d8-a9db-1066cbd26b14"
+            method="POST"
+          >
             <label className="containerform__label" htmlFor="fname">
               Nombre
             </label>
@@ -79,9 +83,8 @@ function PaginaContacto() {
             <label htmlFor="subject" className="containerform__label">
               Mensaje
             </label>
-            <input
-              className="containerform__input"
-              type="textarea"
+            <textarea
+              className="containerform__textarea"
               id="subject"
               name="subject"
               placeholder="Escribe tu texto.."

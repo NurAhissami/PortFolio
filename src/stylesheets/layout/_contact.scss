@@ -47,6 +47,14 @@ margin-top: 10px;
       padding: 10px;
       font-size: 12px;
   }
+  &__textarea{
+      width: 250px;
+      height: 100px;
+      border: solid 1px $colorSecundary;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 12px;
+  }
   &__submit{
       margin-top: 20px;
       margin-bottom: 20px;
