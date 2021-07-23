@@ -6,7 +6,6 @@ function HeroDesign() {
     <section className="herodesign">
       <div className="herodesign__bg"></div>
       <div className="herodesign__bg1"></div>
-      <div className="herodesign__container"></div>
     </section>
   );
 }

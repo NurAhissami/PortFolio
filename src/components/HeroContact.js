@@ -5,7 +5,6 @@ function HeroContact() {
     <section className="herocontact">
       <div className="herocontact__bg"></div>
       <div className="herocontact__bg1"></div>
-      <div className="herocontact__container"></div>
     </section>
   );
 }

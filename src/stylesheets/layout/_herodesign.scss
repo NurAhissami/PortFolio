@@ -30,101 +30,25 @@ background: linear-gradient(3deg, rgba(255,255,255,0.5526315789473684) 0%, rgba(
 
 
      }
-     &__container{
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         align-content: center;
-         align-items: center;
-         margin-bottom: 20px;
-     }
 
-   &__hello{
-       font-size: 20px;
-
-   }
-   &__names{
-       display: flex;
-       &--me{
-           font-size: 14px;
-           padding-right: 5px;
-       }
-       &--name{
-           font-size: 30px;
-           color: $colorPrincipal;
-           line-height: 1;
-           background-color: $colorPrincipal;
-           color: white;
-           width: 100px;
-           height: 30px;
-       text-align: center;
-       
-       }
-
-   }
    &__text{
        padding-top: 20px;
        padding-bottom: 20px;
        text-align: center;
    }
-   &__button{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       height: 30px;
-       width: 250px;
-           border-radius: 10px;
-       text-transform: uppercase;
-       font-weight: bold;
-       background-color: $colorSecundary;
-   }
-   &__circle{
-       width: 40px;
-       height: 60px;
-       border-radius: 50%;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       background-color: $colorPrincipal;
-       &--arrow{
-           font-size: 18px;
-           color: white;
-           
-       }
-   }
    @include tablet{
-       height: auto;
+       height: 250px;
        &__bg{
-           height: 300px;
-           width: 300px;
+           height: 200px;
+           width: 100%;
+           top: 90px;
        }
-       &__hello{
-           font-size: 35px;
-   
-       }
-       &__names{
-           &--me{
-               font-size: 27px;
-           }
-           &--name{
-               font-size: 55px;
-               width: 180px;
-               height: 55px;
-           
-           }
-   
+       &__bg1{
+           height: 250px;
+           width: 100%;
        }
        &__text{
           font-size: 22px;
-       }
-       &__button{
-           height: 50px;
-           width: 250px;
-           font-size: 18px;
-           margin-bottom: 100px;
-       }
-       &__circle{
-           display: none;
        }
    
    }

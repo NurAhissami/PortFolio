@@ -93,10 +93,12 @@ background: linear-gradient(3deg, rgba(255,255,255,0.5526315789473684) 0%, rgba(
        }
    }
    @include tablet{
-       height: auto;
+       height: 250px;
        &__bg{
-           height: 300px;
-           width: 300px;
+        height: 250px;
+       }
+       &__bg1{
+        height: 250px;
        }
        &__hello{
            font-size: 35px;
