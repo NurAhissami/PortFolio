@@ -62,9 +62,11 @@ margin-bottom: 20px;
 @include tablet{
     &__rectangle{
 
-        height: 500px;
-        width: 500px;
+        height: 250px;
+        width:250px;
         margin-bottom: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     &__name{
         font-size: 28px;
