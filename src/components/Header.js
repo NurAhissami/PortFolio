@@ -1,10 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 
-import { useTranslation } from "react-i18next";
-
-function Header(props) {
-  const { t, i18n } = useTranslation();
+function Header() {
   return (
     <header className="header">
       <nav>

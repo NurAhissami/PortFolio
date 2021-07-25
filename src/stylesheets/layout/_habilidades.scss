@@ -28,9 +28,8 @@
     }
 }
 @include desktop{
-    padding-left: 60px;        text-align: center;
-
-
+    padding-left: 110px;        
+    text-align: center;
     &__title{
         color: white;
         font-size: 14px;
@@ -39,7 +38,7 @@
         text-transform: uppercase;
     }
     &__image{
-        width: 50px;
+        width: 40px;
         margin-right: 45px;
     }
 }

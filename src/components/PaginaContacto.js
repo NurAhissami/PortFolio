@@ -80,7 +80,7 @@ function PaginaContacto() {
               placeholder="tuemail@email.com"
             />
 
-            <label htmlFor="subject" className="containerform__label">
+            <label htmlFor="subject" Name="containerform__label">
               Mensaje
             </label>
             <textarea

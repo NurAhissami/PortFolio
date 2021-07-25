@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import Hero from './Hero';
-import Proyectos from './Proyectos';
-import Habilidades from './Habilidades';
-import SobreMi from './SobreMi';
+import Hero from "./Hero";
+import Proyectos from "./Proyectos";
+import Habilidades from "./Habilidades";
+import SobreMi from "./SobreMi";
 
 function Main() {
   return (
