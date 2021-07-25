@@ -1,4 +1,3 @@
-import Proyecto from "./Proyecto";
 import React from "react";
 
 import HeroDesign from "./HeroDesign";
