@@ -6,7 +6,9 @@
     display: flex;
     justify-content: space-evenly;
     font-size: 12px;
-    padding: 10px;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
     &--li{
       margin-top: 50px;
       padding: 5px;

@@ -7,7 +7,7 @@ function Diseño() {
     <>
       <HeroDesign />
       <section className="section-proyects">
-        <h2 className="title">Diseño</h2>
+        <h2 className="design__title">Diseño</h2>
         <ul className="design">Work in progress</ul>
       </section>
     </>

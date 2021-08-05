@@ -23,7 +23,7 @@ function Proyectos() {
       <HeroProjects />
 
       <section className="section-proyects">
-        <h2 className="title">Proyectos</h2>
+        <h2 className="proyectos__title">Proyectos</h2>
         <ul className="projects-list">{projects}</ul>
       </section>
     </>
