@@ -1,25 +1,31 @@
 .herocontact{
     height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 47px;
 
     &__bg{
-       background-image: url(../../images/bg-contact.jpg);
-       background-repeat: no-repeat;
+       background-image: url(../../images/bg-projects.jpg);
        background-size: cover;
-       background-position: top;
        width: 100%;
-       height: 164px;
-       position: absolute;
-       top: 76px;
-       z-index: -12;
+       height: 200px;
      }
      &__bg1{
-        position: absolute;
-        top: 40px;
-        z-index: -12; 
+         position: absolute;
+         top: 0;
         height: 200px;
         width: 100%;
         background: linear-gradient(3deg, rgba(255,255,255,0.5526315789473684) 0%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%);
      }
+     &__title{
+         position: absolute;
+         top: 100px;
+         left: 120px;
+         font-size: 20px;
+         text-transform: uppercase;
+         opacity: 0.7;
+     }
+
 
    @include tablet{
        height: 250px;
@@ -38,9 +44,9 @@
   height: 400px;
        &__bg{
           order: 1;
-          height: 400px;
+          height: 439px;
           width: 100%;
-          top: 80px;
+          top: 41px;
 
        }
        &__bg1{
@@ -50,4 +56,8 @@
    
    }
 
+}
+
+.projects-list{
+    margin-top: 270px;
 }
