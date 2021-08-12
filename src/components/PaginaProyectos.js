@@ -23,7 +23,6 @@ function Proyectos() {
     <>
       <HeroProjects />
       <section className="container">
-        <h2 className="title">Proyectos</h2>
         <ul className="projects-list">{projects}</ul>
       </section>
     </>

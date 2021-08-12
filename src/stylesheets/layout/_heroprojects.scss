@@ -1,25 +1,31 @@
 .heroprojects{
     height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 47px;
 
     &__bg{
        background-image: url(../../images/bg-projects.jpg);
-       background-repeat: no-repeat;
        background-size: cover;
-       background-position: top;
        width: 100%;
-       height: 164px;
-       position: absolute;
-       top: 76px;
-       z-index: -12;
+       height: 200px;
      }
      &__bg1{
-        position: absolute;
-        top: 40px;
-        z-index: -12; 
+         position: absolute;
+         top: 0;
         height: 200px;
         width: 100%;
         background: linear-gradient(3deg, rgba(255,255,255,0.5526315789473684) 0%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%);
      }
+     &__title{
+         position: absolute;
+         top: 80px;
+         left: 100px;
+         font-size: 20px;
+         text-transform: uppercase;
+         opacity: 0.7;
+     }
+
 
    @include tablet{
        height: 250px;
