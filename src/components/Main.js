@@ -7,7 +7,7 @@ import SobreMi from "./SobreMi";
 
 function Main() {
   return (
-    <section>
+    <section className="container">
       <Hero />
       <Proyectos />
       <Habilidades />

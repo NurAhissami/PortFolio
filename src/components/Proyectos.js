@@ -23,8 +23,8 @@ function Proyectos() {
   const index = projects.slice(0, 3);
 
   return (
-    <section className="section-proyects">
-      <h2 className="proyectos__title">Proyectos</h2>
+    <section>
+      <h2 className="title">Proyectos</h2>
       <ul className="projects-list">{index}</ul>
       <Link to="/proyectos" className="proyectos__button">
         Ver más
