@@ -1,47 +1,42 @@
-.about{
-padding-left: 37px;
-padding-right: 36px;
-display: flex;
-flex-direction: column;
-height: 400px;
-&__text{
+.about {
+  padding-top: 20px;
+  &__text {
     font-size: 14px;
-padding-bottom: 20px;
-line-height: 27px;
-}
-&__button{
-    align-self: center;
+    padding-bottom: 20px;
+    line-height: 27px;
+  }
+  &__button {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30px;
-    width: 250px;
+    width: 100%;
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold;
     background-color: $colorSecundary;
-    margin-bottom: 30px;
-}
-@include tablet{
-&__text{
-    font-size: 16px;
-padding-bottom: 20px;
-}
-&__button{
-    height: 35px;
-    width: 300px;
-}
-}
-@include desktop{
-margin-left: 110px;
-&__text{
-    padding-right: 40px;
-    font-size: 16px;
-padding-bottom: 20px;
-}
-&__button{
-    height: 35px;
-    width: 300px;
-}
-}
+    margin-bottom: 20px;
+  }
+  @include tablet {
+    &__text {
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+    &__button {
+      height: 35px;
+      width: 300px;
+    }
+  }
+  @include desktop {
+    margin-left: 110px;
+    &__text {
+      padding-right: 40px;
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+    &__button {
+      height: 35px;
+      width: 300px;
+    }
+  }
 }

@@ -25,7 +25,7 @@ function Proyectos() {
   return (
     <section>
       <h2 className="title">Proyectos</h2>
-      <ul className="projects-list">{index}</ul>
+      <ul className="proyectos">{index}</ul>
       <Link to="/proyectos" className="proyectos__button">
         Ver más
       </Link>
