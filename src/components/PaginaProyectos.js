@@ -3,6 +3,7 @@ import React from "react";
 
 import data from "../data/projects.json";
 import HeroProjects from "./HeroProjects";
+import SocialMedia from "./SocialMedia";
 
 function Proyectos() {
   const projects = data.map((project) => {
@@ -21,9 +22,8 @@ function Proyectos() {
   return (
     <>
       <HeroProjects />
-
-      <section className="section-proyects">
-        <h2 className="proyectos__title">Proyectos</h2>
+      <section className="container">
+        <h2 className="title">Proyectos</h2>
         <ul className="projects-list">{projects}</ul>
       </section>
     </>
