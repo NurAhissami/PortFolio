@@ -10,6 +10,7 @@ import SobreMi from "./SobreMi";
 import Footer from "./Footer";
 import SocialMedia from "./SocialMedia";
 import PaginaContacto from "./PaginaContacto";
+import PaginaAbout from "./PaginaAbout";
 import Diseño from "./Diseño";
 //stylsheets
 import "../stylesheets/App.scss";
@@ -28,7 +29,7 @@ function App() {
           <Proyectos />
         </Route>
         <Route path="/sobremi">
-          <SobreMi />
+          <PaginaAbout />
         </Route>
         <Route path="/diseño">
           <Diseño />
