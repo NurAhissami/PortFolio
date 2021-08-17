@@ -142,9 +142,10 @@
 
 .projects-list {
   @include tablet {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid; 
+    grid-template-columns: 210px 210px 210px; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 20px 20px;
   }
   @include desktop {
     width: 100%;
