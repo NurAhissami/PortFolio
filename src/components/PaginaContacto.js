@@ -7,7 +7,7 @@ function PaginaContacto() {
     <>
       <HeroContact />
       <div className="projects-list">
-        <section className="contact container">
+        <section className="contact container container-page">
           <p className="contact__text">
             ¿Hablamos? 📞. Si crees que mi perfil profesional encaja con lo que
             buscas o quieres darme feedback sobre mis proyectos, ¡no dudes en

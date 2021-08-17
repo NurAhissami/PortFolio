@@ -22,7 +22,7 @@ function Proyectos() {
   return (
     <>
       <HeroProjects />
-      <section className="container">
+      <section className="container container-page">
         <ul className="projects-list">{projects}</ul>
       </section>
     </>

@@ -6,7 +6,7 @@ function Diseño() {
   return (
     <>
       <HeroDesign />
-      <section className="container">
+      <section className="container container-page">
         <ul className="projects-list design">Work in progress</ul>
       </section>
     </>

@@ -1,63 +1,67 @@
-.heroprojects{
+.heroprojects {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 47px;
+
+  &__bg {
+    background-image: url(../../images/bg-projects.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+  }
+  &__bg1 {
+    position: absolute;
+    top: 0;
     height: 200px;
     width: 100%;
+    background: linear-gradient(
+      3deg,
+      rgba(255, 255, 255, 0.5526315789473684) 0%,
+      rgba(255, 255, 255, 1) 80%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+  &__title {
     position: absolute;
-    top: 47px;
+    top: 90px;
+    left: 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
 
+  @include tablet {
+    height: 250px;
     &__bg{
-       background-image: url(../../images/bg-projects.jpg);
-       background-size: cover;
-       width: 100%;
-       height: 200px;
-     }
-     &__bg1{
-         position: absolute;
-         top: 0;
-        height: 200px;
-        width: 100%;
-        background: linear-gradient(3deg, rgba(255,255,255,0.5526315789473684) 0%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%);
-     }
-     &__title{
-         position: absolute;
-         top: 90px;
-         left: 100px;
-         font-size: 20px;
-         text-transform: uppercase;
-         opacity: 0.7;
-     }
-
-
-   @include tablet{
-       height: 250px;
-       &__bg{
-           height: 200px;
-           width: 100%;
-           top: 90px;
-       }
-       &__bg1{
-           height: 250px;
-           width: 100%;
-       }
-   
-   }
-   @include desktop{    
-  height: 400px;
-       &__bg{
-          order: 1;
-          height: 439px;
-          width: 100%;
-          top: 41px;
-
-       }
-       &__bg1{
-        height: 440px;
-
-       }
-   
-   }
-
+  height: 250px;
+    }
+    &__bg1{
+   height: 250px;
+    }
+    &__title{
+     top: 150px;
+     left: 320px;
+     font-size: 22px;
+ }
+  }
+  @include desktop {
+    height: 400px;
+    &__bg {
+      order: 1;
+      height: 439px;
+      width: 100%;
+      top: 41px;
+    }
+    &__bg1 {
+      height: 440px;
+    }
+  }
 }
 
-.projects-list{
-    margin-top: 270px;
+.projects-list {
+  margin-top: 270px;
+  @include tablet {
+    margin-top: 340px;
+  }
 }
