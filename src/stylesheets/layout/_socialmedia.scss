@@ -65,7 +65,11 @@
     font-size: 10px;
     text-align: center;
     overflow-x: hidden;
+    @include tablet{
+      font-size: 14px;
+    }
   }
+ 
 }
 
 @keyframes shine {
