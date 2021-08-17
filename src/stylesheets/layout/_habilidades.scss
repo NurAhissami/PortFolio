@@ -22,14 +22,19 @@
         margin: 15px
     }
 @include tablet{
+    margin-top: 0;
     &__title{
         font-size: 16px;
+        height: 20px;
     }
     &__image{
         width: 45px;
         height: auto;
         margin-right: 25px;
         margin-bottom: 15px;
+    }
+    &__container{
+        padding-bottom: 20px;
     }
 }
 @include desktop{
