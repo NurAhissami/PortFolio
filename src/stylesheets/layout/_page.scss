@@ -1,12 +1,15 @@
-.container{
-    padding-left: 20px;
-    padding-right: 20px;
-    @include tablet{
-        padding-left: 50px;
-        padding-right: 50px;
-    
-      }
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  @include tablet {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  @include desktop {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
 }
-.container-page{
+.container-page {
   margin-top: 70px;
 }

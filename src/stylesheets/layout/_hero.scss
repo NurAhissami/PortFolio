@@ -1,161 +1,145 @@
- .hero{
-     margin-top: 20px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
- 
-     &__bg{
-         margin-top: 80px;
-        background-image: url(../../images/ilustracion-1.png);
-        background-size: contain;
-        background-position: center;
-        height: 200px;
-        width: 200px;
+.hero {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__bg {
+    margin-top: 80px;
+    background-image: url(../../images/ilustracion-1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  &__hello {
+    font-size: 20px;
+  }
+  &__names {
+    display: flex;
+    &--me {
+      font-size: 14px;
+      padding-right: 5px;
+    }
+    &--name {
+      font-size: 30px;
+      color: $colorPrincipal;
+      line-height: 1;
+      background-color: $colorPrincipal;
+      color: white;
+      width: 100px;
+      height: 30px;
+      text-align: center;
+    }
+  }
+  &__text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: $colorSecundary;
+  }
+  &__circle {
+    width: 40px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $colorPrincipal;
+    &--arrow {
+      font-size: 18px;
+      color: white;
+    }
+  }
+  @include tablet {
+    margin-top: 50px;
+    &__bg {
+      margin-bottom: 20px;
+      height: 300px;
+      width: 300px;
+    }
+    &__hello {
+      font-size: 35px;
+    }
+    &__names {
+      &--me {
+        font-size: 27px;
       }
-      &__container{
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          margin-bottom: 20px;
-          width: 100%;
+      &--name {
+        font-size: 55px;
+        width: 180px;
+        height: 55px;
       }
+    }
+    &__text {
+      font-size: 21px;
+      margin-bottom: 20px;
+    }
+    &__button {
+      height: 50px;
+      width: 100%;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    &__circle {
+      display: none;
+    }
+  }
+  @include desktop {
+    flex-direction: row;
 
-    &__hello{
-        font-size: 20px;
-
+    &__bg {
+      order: 1;
+      margin: 0;
+      height: 500px;
+      width: 500px;
     }
-    &__names{
-        display: flex;
-        &--me{
-            font-size: 14px;
-            padding-right: 5px;
-        }
-        &--name{
-            font-size: 30px;
-            color: $colorPrincipal;
-            line-height: 1;
-            background-color: $colorPrincipal;
-            color: white;
-            width: 100px;
-            height: 30px;
-        text-align: center;
-        
-        }
-
+    &__container {
+      flex-direction: column;
+      align-items: flex-start;
     }
-    &__text{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        text-align: center;
+    &__hello {
+      font-size: 32px;
     }
-    &__button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 30px;
-        width: 100%;
-            border-radius: 10px;
-        text-transform: uppercase;
-        font-weight: bold;
-        background-color: $colorSecundary;
+    &__names {
+      &--me {
+        font-size: 23px;
+      }
+      &--name {
+        font-size: 40px;
+        width: 165px;
+        height: 45px;
+      }
     }
-    &__circle{
-        width: 40px;
-        height: 60px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: $colorPrincipal;
-        &--arrow{
-            font-size: 18px;
-            color: white;
-            
-        }
+    &__text {
+      font-size: 18px;
     }
-    @include tablet{
-        margin-top: 50px;
-        &__bg{
-            margin-bottom: 20px;
-            height: 300px;
-            width: 300px;
-        }
-        &__hello{
-            font-size: 35px;
-    
-        }
-        &__names{
-            &--me{
-                font-size: 27px;
-            }
-            &--name{
-                font-size: 55px;
-                width: 180px;
-                height: 55px;
-            
-            }
-    
-        }
-        &__text{
-           font-size: 21px;
-           margin-bottom: 20px;
-        }
-        &__button{
-            height: 50px;
-            width: 100%;
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
-        &__circle{
-            display: none;
-        }
-    
+    &__button {
+      height: 35px;
+      width: 300px;
+      font-size: 16px;
     }
-    @include desktop{    
-        flex-direction: row;
-   
-        &__bg{
-           order: 1;
-           margin-left: 390px;
-           margin-right: 150px;
-           height: 300px;
-           width: 300px;
-
-        }
-        &__container{
-            flex-direction: column;
-            align-items: flex-start;
-margin-left: 150px;
-margin-top: 100px;
-
-        }
-        &__hello{
-            font-size: 32px;
-    
-        }
-        &__names{
-            &--me{
-                font-size: 23px;
-            }
-            &--name{
-                font-size: 40px;
-                width: 165px;
-                height: 45px;
-            }
-    
-        }
-        &__text{
-           font-size: 18px;
-        }
-        &__button{
-            height: 35px;
-            width: 300px;
-                    font-size: 16px;
-        }
-        &__circle{
-            display: none;
-        }
-    
+    &__circle {
+      display: none;
     }
-
- }
+  }
+}
